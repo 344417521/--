@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+#main{
+	width:800px;
+	margin:0 auto;	
+}
+#headline{
+	width:1000px;
+	margin:0 auto;	
+}
+table{
+	width:550px;
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+ th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #FFF
+	background-color: #dedede;
+}
+td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+#bottom_left{
+	width:550px;
+	height:auto;
+	float:left;	
+}
+#bottom_right{
+	width:400px;
+	margin-left:20px;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+	height:auto;
+	float:left;	
+	font-size:12px;
+}
+#bottom{
+	display:block;
+	margin-top:30px;
+	height:500px;
+}

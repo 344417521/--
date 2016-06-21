@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>导航菜单</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script language="JavaScript" src="js/jquery.js"></script>
+<link type="text/css" rel="stylesheet" href="css/menu.css"  />
+<script type="text/javascript">
+	function menuClick(menu){
+		$(menu).next().toggle();
+		}
+	
+</script>
+</head>
+<body>
+<div id="Menu">
+    <ul id="MenuUl">
+        <li class="level1">
+            <div onClick="menuClick(this)" onClick="menuClick(this)" class="level1Style"><img src="images/FUNC20057.gif">&nbsp;&nbsp;流程管理</div>
+            <ul style="display: none;" class="MenuLevel2">
+                <li class="level2">
+                    <div class="level2Style"><img src="images/menu_arrow_single.gif">&nbsp;&nbsp;查看申报的项目</div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="images/menu_arrow_single.gif">&nbsp;&nbsp;申报项目</div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="images/menu_arrow_single.gif">&nbsp;&nbsp;上传中期检查报告</div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="images/menu_arrow_single.gif">&nbsp;&nbsp;上传结项报告</div>
+                </li>
+                <li class="level2">
+                	<div class="level2Style"><img src="images/menu_arrow_single.gif">&nbsp;&nbsp;上传论文</div>
+                </li>
+            </ul>
+        </li>
+        <li class="level1">
+            <div onClick="menuClick(this);" class="level1Style"><img src="images/FUNC20077.gif">&nbsp;&nbsp;个人设置</div>
+            <ul style="display: none;" class="MenuLevel2">
+                <li class="level2">
+                    <div class="level2Style"><img src="images/menu_arrow_single.gif"><a target="right" href="http://blog.sina.com.cn/s/blog_66d8992d0100pb5i.html">&nbsp;&nbsp;个人信息</a></div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="images/menu_arrow_single.gif"><a target="right" href="file:///C|/Users/Administrator/Desktop/futureoa/Flow_FormTemplate/list.html">&nbsp;&nbsp;密码修改</a></div>
+                </li>
+             </ul>
+    </ul>
+</div>
+</body>
+</html>

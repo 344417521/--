@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+main{
+	width:1366px;
+	margin:0 auto;
+		
+}
+.header{
+	margin:-9px -9px;
+	width:auto;
+	height:50px;
+	background:url(../images/toulan.png);
+	font-weight:bolder;
+	font-size:24px;
+	padding:24px 46px;
+	color:#FFF;
+	/*border:1px #0C0 solid;*/
+	}	
+.main{
+	margin:10px -9px;              
+	padding-bottom::10px 100px;
+	border:solid 
+	width:1366px;
+	height:600px;
+	/*border:1px #0C0 solid;*/
+	}
+.left1{
+	height:300px;
+	width:450px;
+	float:left;
+	}   
+.middle1{
+	margin-left:50px;
+	padding:20px 40px;
+	height:260px;
+	width:400px;
+	float:left;
+	}   
+.xiao{
+	margin:-18px 20px;
+	font-size:14px;
+	color:#1E5DBA;
+	font-weight:bolder;
+	}	
+.xian{
+	margin:22px -14px;
+	height:6px;
+	width:300px;
+	}	
+.right1{
+	margin-left:30px;
+	height:300px;
+	width:380px;
+	float:left;
+	}  
+.right1 img{
+	margin:20px 22px;
+	font-size:14px;
+	}	
+.ri1_deng{
+	width:100px;
+	height:19;
+	margin:-51px 60px;
+	margin-top:-49px;
+	font-size:14px;
+	color:#1E5DBA;
+	font-weight:bolder;
+	}
+.ri1_rr img{
+	width:350px;
+	height:3px;
+	margin-top:57px;
+	}	
+.ri1_rr p{
+	text-align:center;	
+	color:#1E5DBA;
+	font-size:14px;
+	font-weight:bolder;
+	}
+.ri1_sanjiao{
+	width:360;
+	height:164;
+	font-size:16px;
+	font-weight:bolder;
+	color:#1950B6;
+	margin-left:20px;
+	}	
+.ri1_sanjiao font{
+	font-weight:bolder;
+	color:#1E5DBA;
+	font-size:13px;
+	margin-top:10px;
+	}
+.ri1_sanjiao input{
+	width:250px;
+	font-family:"微软雅黑";
+	padding:4px;	
+	margin-left:20px;
+	}
+.ri1_sanjiao img{
+	margin-left:30px;	
+	}
+.ri1_sanjiao span{
+	margin-left:100px;	
+	}	
+#ri1_login{
+	margin-top:-30px;	
+	}   
+
+.ri1_login_text{
+	line-height:44px;
+	}
+/*.ri1_login_down{
+	margin-left:16px;
+	margin-top:12px;
+	}
+*/
+.zhanghao{
+	margin-left:30px;
+	/*border:1px #0C0 solid;*/
+	}
+.zhuce1{
+	margin:20px 90px;
+	border:1px #0C0 solid;
+	}	
+.zhuce a{
+		font-size:12px;
+}
+.zhuce{
+	padding-left:30px;	
+}
+.left2{
+	margin-left:34px;
+	padding:20px 20px;
+	height:260px;
+	width:410px;
+	float:left;
+	}
+.le2_da{
+	margin:-18px 20px;
+	font-size:14px;
+	color:#1E5DBA;
+	font-weight:bolder;
+} 
+#le2_shuoming{
+	margin-top:24px;
+	width:600px;
+	height:69;
+}  	
+.middle2{
+	margin-left:16px;
+	padding:20px 20px;
+	height:260px;
+	width:400px;
+	float:left;
+	}
+.right2{
+	height:180px;
+	width:342px;
+	float:right;
+	margin:-310px 60px;
+	}
+.ri2_lian{
+	margin-top:-16px;
+	margin-left:20px;
+	font-size: 14px;
+	color: #1E5DBA;
+	font-weight: bolder;
+	}
+.ri2_i{
+	margin-top:2px;
+	}
+.ri2_you{
+	margin:-24px 40px;
+	font-size:14px;
+	color:#1E5DBA;
+	font-weight:bolder;
+	}	
+.bottom{
+	background:url(../images/weilan.png);
+	width:1366px;
+	height:20px;
+	margin-bottom:100px;
+	background-repeat:repeat-x;
+	margin:-9px -9px;
+	font-size:12px;
+	padding:12px 500px;
+	}
+   
+.left1{
+	height:300px;
+	width:450px;
+	float:left;
+	}
+.middle1{
+	padding:20px 20px;
+	height:260px;
+	width:400px;
+	float:left;
+	}
+.xiao{
+	margin:-18px 20px;
+	font-size:14px;
+	color:#1E5DBA;
+	font-weight:bolder;
+	}
+.xian{
+	margin:22px -14px;
+	height:6px;
+	width:300px;
+}
+.xuxian{
+	color:#1E5DBA;
+	height:25px;
+	width:410px;
+	line-height:30px;
+	border-bottom:dashed #999999 1px;
+	font-size:13px;
+	font-weight:bolder;
+}
+.xuxian img{
+	margin-left:35px; 
+	line-height:8px;
+}
+.pl_dianji{
+	font-family:"微软雅黑";
+	font-size:11px;
+	color:#1E5DBA;
+	margin-left:260px;
+	line-height:46px;
+}
+.right1{
+	height:300px;
+	width:380px;
+	float:left;
+/*	border:1px #0C0 solid;*/
+}
+.left2{
+	padding:20px 20px;
+	height:260px;
+	width:410px;
+	float:left;
+}
+
+.middle2{
+	padding:20px 20px;
+	height:260px;
+	width:400px;
+	float:left;
+}
+.right2{
+	height:300px;
+	width:390px;
+	float:right;
+	margin:-302px 28px;
+       }
+.bottom{
+	background:url(../images/weilan.png);
+	width:auto;
+	height:20px;
+	margin-bottom:100px;
+	background-repeat:repeat-x;
+	margin:-9px -9px;
+	font-size:12px;
+	padding:12px 500px;
+}
+a:link,a:visited{
+	color:#1E5DBA;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+	color:red;
+
+}
+.xiantiao{
+	height:3px;
+	width:840px;
+}
+.sanjiao{
+	font-size:14px;
+	font-weight:bolder;
+	color:#1950B6;
+	margin-top:40px;
+	weight:840px;
+}
+.you{
+	margin:-18px 20px;
+	font-size:14px;
+	color:#1E5DBA;
+	font-weight:bolder;
+}
+
+
+

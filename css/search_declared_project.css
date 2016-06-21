@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.right{
+	padding:10px 80px;
+	float:left;
+	height:440px;
+	width:840px;
+	line-height:38px;
+	}
+.text_font{
+	color:#1E5DBA;
+	font-weight:bolder;
+	font-size:14px; 
+	margin-left:300px;
+}
+.right_top{
+	margin-left:20px;
+	height:30px;
+	width:700px;
+	}
+.xiangji{
+	width:30px;
+	height:25px;
+	padding-top:4px;
+	float:left;
+	}
+.wenzi{
+	width:200px;
+	height:30px;   
+	float:left;
+	line-height:30px;
+	}
+.xiantiao{
+	height：4px;
+	width:840px;
+	margin-top:-345px;
+	}
+.xuxian{
+	color:#1E5DBA;
+	height:40px;
+	width:840px;
+	border-bottom:dashed #999999 1px;
+	font-size:13px;
+	font-weight:bolder;
+	}
+a:link,a:visited{
+	text-decoration:none;
+	}
+a:hover{
+	text-decoration:none;
+	}
+td{
+	padding-left:60px;	
+}

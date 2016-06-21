@@ -1,0 +1,152 @@
+body {
+	background: #d8edfc;
+	font-size: 12px;
+	font-family: "ËÎÌå";
+	scrollbar-base-color: #dbecf8;
+	scrollbar-arrow-color: #2a8ed1;
+	scrollbar-track-color: #bdddf2;
+	scrollbar-3dlight-color: #2886c5;
+	scrollbar-darkshadow-color: #2886c5;
+	scrollbar-face-color: #dbecf8;
+	scrollbar-shadow-color: #dbecf8;
+	margin: 1px;
+/*	border: 3px solid #4891c6;*/
+}
+
+#mid_left{
+		width:250px;
+		height:460px;
+		background:D7EDFB;
+		border:2px solid #4995CC;
+	}
+.guanli{
+	background-image:url(../images/button%20.png);
+	width:250px;
+	height:30px;
+	}
+.guanli font{
+	font-family:"黑体";
+	font-size:14px;
+	margin-left:58px;
+	line-height:36px;
+	}
+
+A:link {
+	COLOR: #004779; TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: #004779; TEXT-DECORATION: none;
+}
+A:active {
+	COLOR: #004779; TEXT-DECORATION: none;
+}
+A:hover {
+	COLOR: #0000ff; TEXT-DECORATION: none;
+}
+
+img.Icon {
+	margin-bottom: -4px;
+}
+
+#MenuUl, ul.MenuLevel1{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	background: #d8ebf7;
+}
+
+ul.MenuLevel2 {
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	background: #d8ebf7;
+}
+
+#Menu {
+	margin-top:10px;
+	float: left;
+	width: 250px;
+	height:608px;
+	line-height:5px;
+	border:3px solid #4891C6;
+}
+
+.level1 {
+	font-weight: bold;
+	color: #005790;
+	padding-bottom: 1px;
+}
+
+.level2 {
+	font-weight: normal;
+	color: #005790;
+}
+
+.level3Head {
+	font-weight: normal;
+	color: #2479b6;
+	width: 100%;
+	height: 21px;
+	padding-left: 61px;
+	padding-top: 4px;
+	margin: 0;
+	background: url(images/menu_bg_head.gif) no-repeat;
+	cursor: hand;
+}
+
+.level33 {
+	font-weight: normal;
+	color: #2479b6;
+	width: 100%;
+	height: 21px;
+	padding-left: 61px;
+	padding-top: 4px;
+	background: url(images/menu_bg_3.gif) no-repeat;
+	cursor: hand;
+}
+
+.level32 {
+	font-weight: normal;
+	color: #2479b6;
+	width: 100%;
+	height: 21px;
+	padding-left: 61px;
+	padding-top: 4px;
+	background: url(images/menu_bg_2.gif) no-repeat;
+	cursor: hand;
+}
+
+.level1Style {
+	width: 210px;
+	height: 24px;
+	background-image:url(file:///E|/php_study/day1/uploads/item_title_bg1.gif);
+	padding-left: 40px;
+	padding-top: 4px;
+	cursor: hand;
+	line-height:2px;
+	/*border:1px red solid;*/
+} 
+.level1Style img{
+	
+	}
+
+.level1SelectedStyle {
+	width:250px;
+	height:24px;
+	background:url(../images/button_bg.png)) no-repeat;
+	padding-left: 15px;
+	padding-top: 4px;
+	cursor: hand;
+}
+
+.level2Style {
+	width: 178x;
+	height: 20px;
+	background: #8ec4e9;
+	padding-left: 70px;
+	padding-top: 4px;
+	border-top: 1px solid #eff6fb;
+	cursor: hand;
+	/*border:1px green solid;*/
+}
+

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#mid_left{
+		width:150px;
+		height:460px;
+		background:D7EDFB;
+		border:2px solid #4995CC;
+	}
+.guanli{
+	background-image:url(../images/button%20.png);
+	width:150px;
+	height:30px;
+	}
+.guanli font{
+	font-family:"黑体";
+	font-size:14px;
+	margin-left:58px;
+	line-height:36px;
+	}

@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+frameset,frame{
+	display:block;
+	}
+frameset{
+	border-color:inherit;
+	}
+body{
+	margin-left:-230px;
+	margin-top:-100px;
+	}
+font{
+	color:#1E5DBA;
+	font-weight:bolder;
+	font-size:14px;
+}
+.main{
+	margin-top:-20px;
+}
+#header{
+	width:100%;
+	height:100px;
+/*	background-image:url(../images/toulan.png);*/
+	font-size:24px;
+	}
+#header font{
+	margin-left:45px;
+	line-height:80px;
+	color:#000;
+	font-weight:bolder;
+	font-size:14px;
+	}
+.title{
+/*	font-size:22px;*/
+/*	color:#0137B3;*/
+/*	font-weight:400;*/
+	margin-left:586px;
+	line-height:80px;
+	font-size:22px;
+    color:#000;
+    font-weight:bolder;
+	}
+.top_zuo{
+	width:380px;
+	height:145px;
+	margin-left:300px;
+	/*border:1px #0099CC solid;*/
+}
+.top_zuo li{
+	line-height:43px;
+	}
+.top_zuo input{
+	line-height:25px;
+/*	border:solid #999999 1px;*/
+	}
+.top_you{
+	width:380px;
+	height:145px;
+	margin-left:680px;
+	margin-top:-160px;
+	/*border:1px #CC33FF solid;*/
+}
+.top_you li{
+	line-height:42px;
+	}
+.top_you input{
+	line-height:25px;
+	border:solid #999999 1px;
+	}
+.xuxian{
+	color:#1E5DBA;
+	height:4px;
+	width:810px;
+	margin-left:280px;
+	margin-top:-14px;
+	border-bottom:dashed #999999 1px;
+	font-size:14px;
+	font-weight:bolder;
+	}
+.xuxian img{
+	margin-left:30px;  
+	}
+.xuxian span{
+	margin-left:20px;
+	}
+.mid_chy{
+	width:760px;
+	height:145px;
+	margin-left:302px;
+	margin-top:-5px;
+	/*border:1px #FF6600 solid;*/
+	}
+.chengyuan{
+	margin-top:-5px;
+	margin-left:36px;
+	line-height:60px;
+}
+.chengyuan_t{
+	margin-left:83px;
+	margin-top:-20px;
+}
+.chengyuan input{
+	line-height:25px;
+	margin-top:-20px;
+	border:solid #999999 1px;
+}
+	
+.laoshi{
+	margin-left:28px;
+	margin-top:-7px;
+	}
+.laoshi input{
+	line-height:25px;
+	border:solid #999999 1px;
+	}
+
+.bot_jianjie{
+	width:760px;
+	height:145px;
+	margin-left:296px;
+	/*border:1px #0000FF solid;*/
+}
+.bot_jianjie font{
+	margin-left:45px;
+}
+.bot_jianjie textarea{
+	border:solid #999999 1px;
+	margin-top:8px;
+}
+.button{
+	margin-left:350px;
+	width:760px;
+	height:50px;
+	/*margin-left:500px;*/
+	}
+.button input{
+	margin-top:30px;
+	margin-left:70%;
+}

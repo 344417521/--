@@ -1,0 +1,75 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/jsp/share/taglib.jsp" %>
+<%@ include file="/WEB-INF/jsp/share/basepath.jsp"  %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link  href='../css/ipms.css' type="text/css" rel="stylesheet" />
+<link  href="../css/project_achievement_show.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>成果展示</title>
+
+</head>
+<body>
+<div id="header">
+	<div style="float:left;"><font>大学生创新项目管理系统</font></div><div style="float:right;"><img src="../images/7.png" /><img style="margin-right:100px;" src="../images/hh.png" /></div>
+</div>
+   	
+    	<div id="headline"><br /><img style="margin-left:-20px;" src="../images/111 1.png" /><strong>&nbsp;项目成果展示</strong>
+        	
+        	<br /><img src="../images/xian.png" width="1100px" height="5px" style="margin-left:-50px;/><br />
+        </div>
+        <div id="main">
+        <div id="top">
+        	<div id="tile">
+            	<br /><img src="../images/shu.png" /><strong>&nbsp;成果图片</strong>
+            </div>
+            <div id="show" style="margin-top:10px">
+            	<div><img src="../images/4.png" width="1000px"/></div>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="bottom_left">
+            	<table >
+                	<tr><td>项目编号</td><td>20131027070</td></tr>
+                    <tr><td>项目名称</td><td>百度地图</td></tr>
+                    <tr><td>项目类型</td><td>外国留学生及其相关的啥东西我也不知道</td></tr>
+                    <tr><td>所属院系</td><td>河南科技学院</td></tr>
+                    <tr><td>项目负责人</td><td>姓名：刘东<br />专业：计算机科学与技术<br />Email:3106166@qq.com</td></tr>
+                    <tr><td>项目成员</td><td>姓名：刘东<br />专业：计算机科学与技术<br />Email:3106166@qq.com</td></tr>
+                    <tr><td>项目成员</td><td>姓名：刘东<br />专业：计算机科学与技术<br />Email:3106166@qq.com</td></tr>
+                    <tr><td>项目成员</td><td>姓名：刘东<br />专业：计算机科学与技术<br />Email:3106166@qq.com</td></tr>
+                    <tr><td>项目成员</td><td>姓名：刘东<br />专业：计算机科学与技术<br />Email:3106166@qq.com</td></tr>
+                    <tr><td>指导老师</td><td>姓名：高帅东<br />职称：教授<br />研究方向：核物理</td></tr>
+                </table>
+            </div>
+            
+            <div id="bottom_right">
+            	<div id="tile">
+            	<img src="../images/shu.png" />成果图片
+                </div>
+                
+                <div id="content">
+                	<p>
+                    	用百度地图，快速定位你的位置，探索周边美食娱乐。百度地图下载,就在太平洋下载中心!不但可以找位置，还能帮你“到那去“，公交、驾车、步行三种出行方式任你选择，还有蚯蚓路线、免费语音导航、时间胶囊让你出行无忧。<br />
+丰富的贴心功能，帮你玩转地图。离线地图，节省流量。收藏夹可以同步云端，实现电脑、手机、Pad三端贯通，永不丢失。
+                    </p>
+                </div>
+            </div>	
+        </div>
+    	</div>
+        
+     
+    
+    
+   
+    
+<div id="footer">
+		<div class="bottom"> 2015 Baidu 使用百度前必读 | 百科协议 | 百度百科合作平台</div>
+	</div>
+   
+</body>
+</html>

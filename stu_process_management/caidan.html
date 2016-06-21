@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+<script language="JavaScript" src="../js/jquery.js"></script>
+<link type="text/css" rel="stylesheet" href="../css/menu.css"  />
+<script type="text/javascript">
+	function menuClick(menu){
+		$(menu).next().toggle();
+		}
+	
+</script>
+</head>
+<body>
+<div id="Menu">
+    <ul id="MenuUl">
+        <li class="level1">
+            <div onClick="menuClick(this)" class="level1Style"><img src="../images/FUNC20057.gif">&nbsp;&nbsp;流程管理</div>
+            <ul style="display: none;" class="MenuLevel2">
+                <li class="level2">
+                    <div class="level2Style"><img src="../images/menu_arrow_single.gif"><a target="right" href="haveToDeclare.html">&nbsp;&nbsp;查看已申报的项目</a></div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="../images/menu_arrow_single.gif"><a target="right" href="declareProject.html">&nbsp;&nbsp;申报项目</a></div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="../images/menu_arrow_single.gif"><a target="right" href="interimReport.html">&nbsp;&nbsp;上传中期检查报告</a></div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="../images/menu_arrow_single.gif"><a target="right" href="uploadThePostProject.html">&nbsp;&nbsp;上传结项报告</a></div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="../images/menu_arrow_single.gif"><a target="right" href="submitPaper.html">&nbsp;&nbsp;上传论文</a></div>
+                </li>
+            </ul>
+        </li>
+        <li class="level1">
+            <div onClick="menuClick(this);" class="level1Style"><img src="../images/FUNC20077.gif">&nbsp;&nbsp;个人设置</div>
+            <ul style="display: none;" class="MenuLevel2">
+                <li class="level2">
+                    <div class="level2Style"><img src="../images/menu_arrow_single.gif"><a target="right" href="../stu_personal_settings/editUserInfoUI.html">&nbsp;&nbsp;个人信息</a></div>
+                </li>
+                <li class="level2">
+                    <div class="level2Style"><img src="../images/menu_arrow_single.gif"><a target="right" href="../stu_personal_settings/passwordChange.html">&nbsp;&nbsp;密码修改</a></div>
+                </li>
+             </ul>
+    </ul>
+</div>
+</body>
+</html>
